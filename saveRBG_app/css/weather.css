@@ -1,7 +1,7 @@
 * {
   margin: 0;
   font-family: 'Anton', sans-serif;
-  border: 1px solid aqua;
+  /* border: 1px solid aqua; */
   background-color: rgb(25, 25, 25);
 }
 body {
@@ -17,7 +17,7 @@ body {
   height: 600px;
   width: 100%;
   color: white;
-  z-index: 1;
+  z-index: 2;
   position:absolute;
 }
 #weather-modal {
@@ -25,7 +25,8 @@ body {
   width: 100%;
   background-color: rgb(25, 25, 25);
   color: white;
-  z-index: 2;
+  z-index: 1;
   position: absolute;
   display: none;
+
 }
