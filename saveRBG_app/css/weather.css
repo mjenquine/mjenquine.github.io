@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  border: 1px solid aqua;
+  background-color: rgb(25, 25, 25);
+}
+body {
+  height: 100%vh;
+  width: 100%vw;
+}
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  color: white;
+  z-index: 1;
+  position:absolute;
+}
+#weather-modal {
+  height: 600px;
+  width: 100%;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  z-index: 2;
+  position: absolute;
+  display: none;
+}

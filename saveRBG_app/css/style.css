@@ -1,6 +1,7 @@
 * {
   /* border: 1px solid gold; */
   margin: 0;
+  font-family: 'Anton', sans-serif; 
 }
 body {
   background-image: url("images/collar.jpg");
