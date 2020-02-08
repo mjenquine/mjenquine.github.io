@@ -8,9 +8,24 @@ body {
   background-color: rgb(25, 25, 25);
   height: 100vh;
 }
-#open-modal {
-top: 80%;
+#open-modal-btn {
 margin-left: 45%;
 margin-top: 2em;
 padding: .8em;
+}
+#modal {
+  z-index: 1;
+  height: 35%;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25%;
+  display: flex;
+  text-align: center;
+  background-color: #D4C175;
+  color: white;
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
