@@ -1,0 +1,16 @@
+* {
+  border: 1px solid gold;
+}
+body {
+  background-image: url("images/collar.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(25, 25, 25);
+  height: 100vh;
+}
+#open-modal {
+top: 80%;
+margin-left: 45%;
+margin-top: 2em;
+padding: .8em;
+}
