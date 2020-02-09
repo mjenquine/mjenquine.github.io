@@ -30,8 +30,26 @@ body {
   z-index: 1;
   position: absolute;
   display: none;
-
 }
 #currently {
   color: #D4C175;
+}
+button {
+  margin-top: 5em;
+  margin-left: 35%;
+  width: 10em;
+  padding: .5em;
+  background-color: #D4C175;
+  color: white;
+  border: none;
+  display: none;
+
+}
+a {
+  text-decoration: none;
+  background-color: #D4C175;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
 }
