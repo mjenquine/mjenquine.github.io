@@ -23,10 +23,15 @@ body {
 #weather-modal {
   height: 600px;
   width: 100%;
+  text-align: center;
+  margin-top: 25%;
   background-color: rgb(25, 25, 25);
   color: white;
   z-index: 1;
   position: absolute;
   display: none;
 
+}
+#currently {
+  color: #D4C175;
 }
