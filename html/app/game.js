@@ -18,39 +18,45 @@ const arr = [
   { activity: 'Meditate',
     warning: 'next time find a quieter space for meditation'
   }]
+let totalHP = []
 
-const totalHP = 0
 
 $(() => {
 //===================================
 const generateActivities = () => {
   for (let i = 0; i < arr.length; i++) {
-
     //these are the main activity buttons appended to the .squares-section
     const $activity = $(`<div> ${arr[i].activity}</div>`).addClass('activity-squares');
     $('#squares-section').append($activity)
     //add an event listener to the activity squares
     $activity.on('click', (event) => {
+      event.preventDefault()
       //create a random health point between 0 and 20
       const hp = Math.floor(Math.random() * 20)
       if (hp >= 7) {
-        totalHp += hp
+        totalHP.push(hp)
       } else {
         alert(`Low health points added for this activity ${arr[i].warning}`)
-        totalHP += hp
+        totalHP.push(hp)
       }
+      console.log(totalHP);
+      displayTotalHP();
     })
   }
 }
 
 
+
+
+
+
+
+
 //captures totalHP and displays it on the screen
 const displayTotalHP = () => {
-  const $health = $(`<div>${totalHP}</div>`)
-  $('#total-score-box').append($health)
+  // const $health = $(`<div>${totalHP.reduce((a, b) => a + b, 0)}</div>`)
+  $('#total-score-box').text(totalHP.reduce((a, b) => a + b, 0))
 }
-
-
 generateActivities()
 displayTotalHP()
 //=====================================
