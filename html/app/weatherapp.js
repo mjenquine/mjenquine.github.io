@@ -16,7 +16,7 @@ $(() => {
   setTimeout(showButton, 10000);
 
   $.ajax({
-    url: 'http://api.openweathermap.org/data/2.5/weather?lat=38.9072&lon=-77.0369&appid=9720f14bcedd739f2389c4b2d742b802&units=imperial',
+    url: 'https://api.openweathermap.org/data/2.5/weather?lat=38.9072&lon=-77.0369&appid=9720f14bcedd739f2389c4b2d742b802&units=imperial',
     type: "Get"
   }).then(
     (data) => {

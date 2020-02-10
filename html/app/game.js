@@ -25,6 +25,10 @@ const generateActivities = () => {
     $('#total-score-box').append($health)
   }
 
+  $('.activity-squares').on('click', (event) => {
+    event.console.log('hiiiii');
+  })
+
 
 
 
