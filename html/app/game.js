@@ -36,25 +36,15 @@ const generateActivities = () => {
       if (hp >= 7) {
         totalHP.push(hp)
       } else {
-        alert(`Low health points added for this activity ${arr[i].warning}`)
+        alert(`Low health points added for this activity -  ${arr[i].warning}`)
         totalHP.push(hp)
       }
-      console.log(totalHP);
       displayTotalHP();
     })
   }
 }
-
-
-
-
-
-
-
-
 //captures totalHP and displays it on the screen
 const displayTotalHP = () => {
-  // const $health = $(`<div>${totalHP.reduce((a, b) => a + b, 0)}</div>`)
   $('#total-score-box').text(totalHP.reduce((a, b) => a + b, 0))
 }
 generateActivities()
