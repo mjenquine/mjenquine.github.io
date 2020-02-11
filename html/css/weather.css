@@ -3,6 +3,8 @@
   font-family: 'Anton', sans-serif;
   /* border: 1px solid aqua; */
   background-color: rgb(25, 25, 25);
+  max-width: 320px;
+  max-height: 800px;
 }
 body {
   height: 100%vh;
@@ -36,7 +38,7 @@ body {
 }
 button {
   margin-top: 5em;
-  margin-left: 35%;
+  margin-left: 43%;
   width: 10em;
   padding: .5em;
   background-color: #D4C175;

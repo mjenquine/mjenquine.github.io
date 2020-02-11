@@ -1,17 +1,19 @@
 * {
   /* border: 1px solid gold; */
   margin: 0;
-  font-family: 'Anton', sans-serif; 
+  font-family: 'Anton', sans-serif;
+  max-width: 320px;
+  max-height: 800px;
 }
 body {
   background-image: url("images/collar.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgb(25, 25, 25);
-  height: 100vh;
+  /* height: 100vh; */
 }
 #open-modal-btn {
-margin-left: 45%;
+margin-left: 50%;
 margin-top: 2em;
 padding: .8em;
 }
