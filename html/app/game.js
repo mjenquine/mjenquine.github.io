@@ -51,7 +51,8 @@ const displayTotalHP = () => {
 
 const checkLifeExtension = () => {
   if (totalHP.reduce((a, b) => a + b, 0) > 50) {
-
+    alert('1+ Life ')
+    
   }
 }
 
