@@ -3,14 +3,13 @@
   font-family: 'Anton', sans-serif;
   /* border: 1px solid aqua; */
   background-color: rgb(25, 25, 25);
-  max-width: 320px;
-  max-height: 800px;
 }
 body {
   height: 100%vh;
   width: 100%vw;
 }
 #title {
+  line-height: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,11 +21,15 @@ body {
   z-index: 2;
   position:absolute;
 }
+#title>h1 {
+  font-size: 72px;
+}
 #weather-modal {
+  line-height: 3;
   height: 600px;
   width: 100%;
   text-align: center;
-  margin-top: 25%;
+  margin-top: 15%;
   background-color: rgb(25, 25, 25);
   color: white;
   z-index: 1;

@@ -2,24 +2,23 @@
   /* border: 1px solid gold; */
   margin: 0;
   font-family: 'Anton', sans-serif;
-  max-width: 320px;
-  max-height: 800px;
 }
 body {
   background-image: url("images/collar.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgb(25, 25, 25);
-  /* height: 100vh; */
+  height: 100vh;
+  line-height: 5;
 }
 #open-modal-btn {
 margin-left: 50%;
-margin-top: 2em;
+margin-top: 10em;
 padding: .8em;
 }
 #modal {
   z-index: 1;
-  height: 35%;
+  height: 20em;
   width: 50%;
   margin-left: 25%;
   margin-top: 25%;
