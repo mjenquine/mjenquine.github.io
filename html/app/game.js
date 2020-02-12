@@ -49,12 +49,7 @@ const displayTotalHP = () => {
   $('#total-score-box').text(totalHP.reduce((a, b) => a + b, 0))
 }
 
-const checkLifeExtension = () => {
-  if (totalHP.reduce((a, b) => a + b, 0) > 50) {
-    alert('1+ Life ')
-    
-  }
-}
+
 
 generateActivities()
 displayTotalHP()
